@@ -11,6 +11,8 @@ cur=con.cursor()
 con.autocommit = True
 
 #### Creation of Database and subsequent Tables
+
+
 ##cur.execute("CREATE DATABASE Railway;")
 ##cur.execute("USE Railway;")
 ##s = "CREATE TABLE accounts(ID int primary key,Password varchar(16),Name varchar(100),Sex char(1),Age int,DOB date,Ph_no varchar(10));"
